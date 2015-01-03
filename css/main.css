@@ -1,0 +1,319 @@
+* {
+	
+	box-sizing: border-box;
+	
+}
+html {
+	
+	
+	
+}
+
+body {
+	margin-left: 10px;
+	margin-right: 10px;
+	
+}
+
+h1 {
+	font-family: "otama.ep", "didot", serif;
+	color: #636363;
+}
+
+h2 {
+	font-family: "montserrat", "helvetica", sans-serif;
+	color: #636363;
+}
+
+p {
+	font-family: "montserrat", "helvetica", sans-serif;
+	color: #636363;
+}
+
+
+/* Logo Styling */
+.logo {	
+	margin-left: auto;
+	margin-right: auto;
+	height: 420px;
+	width: 300px;	
+	top: 200px;
+}
+.logobox {
+	border: 6px solid gray;
+	padding-top: 40px;	
+	color: gray;
+	width: 300px;
+	height: 390px;
+	font-family: "otama.ep", "didot", serif;	
+}
+.logobox
+li {	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 95px;
+	letter-spacing: 7px;	
+}
+.logofooter {	
+	width: auto;
+	height: 50px;
+	color: gray;
+	font-size: 30px;
+	text-transform: uppercase;
+	font-family: "montserrat", "helvetica", sans-serif;
+	text-align: center;	
+}
+.logofooter
+strong {
+	
+	letter-spacing: 9px;
+	
+	
+}	
+.logobox
+li {
+	
+	list-style-type: none;
+	font-size: 90px;
+	line-height: 1em;
+	letter-spacing: 7px;
+	color: gray;	
+}
+
+.logo
+ul {	
+	text-align: center;	
+}
+/* Logo Styling End */
+
+/* Navigation Styling */
+nav#navigations {
+	position: fixed;
+	width: 300px;
+	color: gray;
+	left: 100px;
+	top: 50px;
+	visibility: visible;
+	z-index: 999;	
+}
+nav#navigations
+li {
+	list-style-type: none;
+	padding-left: 0;
+}
+#menu {
+	
+	margin-left: 0;
+	padding-left: 0;
+}
+
+
+/* Navigation Styling End*/
+
+.page {
+	width: 100%;
+	height: 100%;
+	top: 200px;
+	padding-bottom: 200px;
+}
+
+.page 
+p {
+	margin-top: 20px;
+	color: #636363;
+	width: 550px;
+	max-width: 75%;
+	text-align: left;
+	border-top: 2px solid grey;
+	padding-top: 20px;
+}
+.postfooter {
+	
+	height: 100px;
+	width: auto;
+	
+}
+
+.postfooter
+.timestamp {
+	margin-left: 40%;
+	width: 50px;
+	
+}
+.postcontent
+li {
+	list-style-type: none;
+	color: #636363;
+	display: inline;	
+	width: inherit;
+}
+
+.contenttools,
+.timestamp {
+	
+	display: inline;
+}
+
+.contenttools
+li {
+	margin-right: 10px;
+	width: 200px;
+}
+
+.postcontent
+img {
+	padding-left: 25%;
+	max-height: 100%;
+	max-width: 100%;
+	width: 80%;
+
+}
+.icon {
+	
+	height: 100px;
+	width: 100px;
+	margin-left: 90%;
+}
+#texticon {
+	background-image: url("img/texticon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+	
+}
+#photoseticon {
+	
+	background-image: url("img/photoseticon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+
+}
+#filmicon {
+	
+	background-image: url("img/filmicon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#quotemicon {
+	
+	background-image: url("img/quoteicon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#chaticon {
+	
+	background-image: url("img/chaticon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+#musicicon {
+	
+	background-image: url("img/musicicon.png");
+	background-repeat: no-repeat;
+	background-size: contain;
+}
+/* Specific Section Styling */
+
+#firstpage {	
+	
+	min-height: 1000px;	
+}
+#secondpage {	
+	min-height: 1000px;	
+}
+/* Specific Section Styling End */
+.container {
+	
+	}
+	
+	/* unvisited link */
+a:link {
+    color: #636363;
+    text-decoration: none;
+    
+}
+
+/* visited link */
+a:visited {
+    color: #636363;
+}
+
+/* mouse over link */
+a:hover {
+    color: #636363;
+    
+}
+
+/* selected link */
+a:active {
+    color: #636363;
+}
+
+	
+@media (min-width: 200px) and (max-width: 1200px) {
+
+html {
+	margin: 0;
+}
+/* mobile navigation styling */
+#navigations
+ {	
+	z-index: 999;
+    margin-top: -50px;
+	margin-left: -130px;
+	font-size: 22px;
+	
+}
+
+#navigations ul {
+	width: 1300px;
+	padding-left: 10px;	
+	
+}
+
+#menu {
+margin: 0;
+margin-left: -10px;		
+}
+
+
+#menubutton:hover {
+	background-color: grey;
+	
+}
+
+#navigations li {	
+	background-color: white;
+	margin: 0;	
+	
+}
+
+#menu
+.options {
+	border-bottom: 1px solid grey;
+	
+}
+
+
+#navigations a {	
+	display: block;
+	padding-left: 50px;	
+}
+
+#navigations
+.options a:hover {
+	color: white;
+	background-color: #a4a4a4; 
+	}
+	
+#navigations ul li > ul
+{
+	display: none;
+}
+	
+#navigations ul li:hover > ul
+{
+	display:block;
+}	
+	/* mobile navigation styling end */
+	
+	}
